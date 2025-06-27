@@ -1,14 +1,13 @@
 :root {
-  --lm-bg: #f6f8ff;
-  --lm-bg-content: #fefefe;
-  --lm-text: #4b6a9b;
-  --lm-text-alt: #2b3442;
-  --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
-  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
-  --lm-icon-bg: brightness(100%);
-  /* Btn */
-  --btn: #0079ff;
-  --btn-hover: #60abff;
+  --lm-bg: #e0f2e9;                /* Soft rainforest green background */
+  --lm-bg-content: #fffde7;        /* Light yellow content background */
+  --lm-text: #114b5f;              /* Deep greenish-blue for main text */
+  --lm-text-alt: #0d2c3f;          /* Dark blue/black for contrast text */
+  --lm-shadow: 0px 16px 30px -10px rgba(0, 102, 51, 0.2); /* Green tone shadow */
+  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.1);
+  --lm-icon-bg: brightness(95%);
+  --btn: #ffcc00;                  /* Brazilian gold (yellow) for primary button */
+  --btn-hover: #ffd633;            /* Brighter yellow on hover */
 }
 
 * {
@@ -105,21 +104,25 @@ main {
   padding: 0 10px 0px 16px;
 }
 
-#noResults{
+#noResults {
   position: absolute;
-  text-transform: capitalize;;
+  text-transform: capitalize;
   top: -30px;
   right: -40px;
-  background-color: red;
-  border-radius: 10px;
-  width: 180px;
-  padding: 4px 6px;
-  color: white;
+  background-color: #b3001b;      /* Japanese crimson (beni aka) */
+  border-radius: 12px;
+  width: 200px;
+  padding: 6px 10px;
+  color: #fffaf0;                 /* Soft sakura white */
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "Noto Sans JP", sans-serif; /* Japanese web font */
   scale: 0;
-  transition: 0.5s;
+  box-shadow: 0 4px 8px rgba(179, 0, 27, 0.3);
+  border: 1px solid #ffb3c1;      /* Sakura pink border */
+  transition: 0.5s ease;
 }
+
 
 .searchContainer #btn {
   background: var(--btn);

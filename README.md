@@ -1,4 +1,4 @@
-# 🇯🇵 GitHunt – Elegant GitHub Profile Finder
+# GitHunt – Elegant GitHub Profile Finder
 
 **GitHunt** is a sleek GitHub profile finder built with HTML, CSS, and JavaScript, featuring a Japanese-inspired UI. It uses the GitHub API to fetch and display user profiles with clean design, theme toggle, and responsive layout.
 
